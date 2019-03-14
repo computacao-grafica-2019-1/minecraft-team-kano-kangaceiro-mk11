@@ -21,7 +21,6 @@ function draw() {
 
     push();
     translate(225, 10);
-    //rect(-25, -50, 50, 50);
     image(kanoHead, -55, 0);
     fill(255);
     circle(0,0,4);
@@ -29,10 +28,8 @@ function draw() {
 
     push();
     translate(225, 100);
-    //rect(-40, 60, 80, 100);
     image(kanoBody, -55, 10);
     fill(255);
-    //circle(0,0,4);
     pop();
 
     push();
@@ -52,7 +49,6 @@ function draw() {
     push();
     translate(160, 130);
     rotate(radians(mexerBracoEsquerdo))
-    //rect(0, -17, 80, 35);
     image(kanoBracoEsquerdo, -65, -17, 66, 175)
     fill(255);
     circle(0,0,4);
@@ -61,7 +57,6 @@ function draw() {
     push();
     translate(290, 130);
     rotate(radians(mexerBracoDireito))
-    //rect(-17, 0, 35, 80);
     image(kanoBracoDireito, 0, -20)
     fill(255);
     circle(0,0,4);
