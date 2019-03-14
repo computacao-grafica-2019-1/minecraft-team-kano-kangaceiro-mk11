@@ -67,13 +67,12 @@ function draw() {
 
 function keyPressed() {
 
-    //Balança BD
     if (keyCode === 68 & mexerBracoDireito == 0) {
         mexerBracoDireito = -30;
     } else if (keyCode === 68 & mexerBracoDireito == -30) {
         mexerBracoDireito = 0;
     }
-    //Balnça BE
+
     if (keyCode === 69 & mexerBracoEsquerdo == 0) {
         mexerBracoEsquerdo = 30;
     } else if (keyCode === 69 & mexerBracoEsquerdo == 30) {
